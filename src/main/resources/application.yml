@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: jurnalApp
+
+  redis:
+    host: localhost
+    port: 6379
+
+  mongodb:
+    uri: mongodb+srv://adarsh8507kumar_db_user:GtzeRnKUifZQ30qT@cluster0.a7msvpq.mongodb.net/journaldb?retryWrites=true&w=majority
+    auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: adarsh8507kumar@gmail.com
+    password: nfoo usyo tvhq diwp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
